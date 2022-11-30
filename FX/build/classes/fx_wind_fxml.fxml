@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="295.0" layoutY="250.0" prefHeight="147.0" prefWidth="286.0" style="-fx-background-color: RED;">
+         <effect>
+            <MotionBlur />
+         </effect>
+         <children>
+            <TextArea prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+      <Button layoutX="126.0" layoutY="340.0" mnemonicParsing="false" text="Button">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <Blend mode="DARKEN" opacity="0.7" />
+         </effect>
+      </Button>
+      <RadioButton layoutX="103.0" layoutY="63.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton layoutX="248.0" layoutY="63.0" mnemonicParsing="false" text="RadioButton" />
+      <ProgressBar layoutX="335.0" layoutY="217.0" prefWidth="200.0" progress="0.0" />
+      <ChoiceBox layoutX="103.0" layoutY="26.0" prefWidth="150.0" />
+      <Label layoutX="29.0" layoutY="30.0" text="Label" />
+      <Label layoutX="29.0" layoutY="91.0" text="Label" />
+      <TextField layoutX="104.0" layoutY="87.0" />
+      <Label layoutX="29.0" layoutY="122.0" text="Label" />
+      <TextField layoutX="104.0" layoutY="118.0" />
+      <Label layoutX="29.0" layoutY="156.0" text="Label" />
+      <TextField layoutX="104.0" layoutY="152.0" />
+      <Label layoutX="29.0" layoutY="190.0" text="Label" />
+      <TextField layoutX="104.0" layoutY="186.0" />
+      <Label layoutX="29.0" layoutY="227.0" text="Label" />
+      <TextField layoutX="104.0" layoutY="223.0" />
+      <Label layoutX="410.0" layoutY="190.0" text="please wait.." />
+   </children>
+</Pane>
