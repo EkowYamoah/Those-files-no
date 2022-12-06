@@ -10,7 +10,7 @@ public class fx_window extends JFrame{
 		
 		fx_window_layout layout = new fx_window_layout();
 		layout.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		layout.setSize(600,600);
+		layout.setSize(800,300);
 		layout.setVisible(true);
 
 			

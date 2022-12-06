@@ -10,8 +10,6 @@ public class sma {
 //	    return String.format("%.2f", val);
 //	}
 //	 public static void main(String args[]) {
-    
-
 //		 double pipValue;
 //		double lotSize = 0.00;
 //		Scanner sn = new Scanner(System.in);
